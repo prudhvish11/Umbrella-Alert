@@ -79,5 +79,3 @@ def predict():
 			return render_template("after_rainy.html")
 	return render_template("predictor.html")
 
-if __name__=='__main__':
-	app.run(debug=True)
